@@ -1,5 +1,5 @@
-/* .back-map {
-    background-image: linear-gradient(rgba(160, 158, 158, 0.7), rgba(0, 0, 0, 0.7)), url(./image/map.jpg);  
+  .back-map {
+    background-image: linear-gradient(rgba(160, 158, 158, 0.7), rgba(0, 0, 0, 0.7)), url(./Image/map.jpg);  
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -11,4 +11,4 @@
     justify-content: space-evenly;
     align-items: center;
   }
-   */
+    

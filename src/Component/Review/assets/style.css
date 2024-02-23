@@ -1,0 +1,9 @@
+.review-back-img{
+    background-image: url(./Image/review.jpg);
+    /* background-image: url(./Image/acastro_181114_1777_amazon_hq2_0004.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 400px;
+}

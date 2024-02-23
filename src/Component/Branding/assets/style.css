@@ -1,0 +1,37 @@
+.barnding-imgs{
+
+    height: 240px;
+    
+}
+
+.barnding-imgs-1{
+height:240px ;
+
+
+}
+
+.branding-row{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.branding-animation img {
+    transition: transform 0.3s ease;
+}
+
+.branding-animation img:hover {
+    transform: scale(1.1);
+}
+.branding-left.left-to-right {
+    transform: translateX(-100%);
+} 
+
+ .branding-right.right-to-left {
+    transform: translateX(-100%);
+} 
+
+.branding-animation.show {
+    opacity: 1;
+    transform: translateX(0);
+}

@@ -1,0 +1,23 @@
+.nav-image{
+    height: 50px;
+}
+.nav-f-all{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.nav-back{
+    
+}
+.scrolled {
+    background-color:rgb(211, 143, 16); 
+    
+  }
+  .text-white .nav-link {
+    color: white !important;
+  }
+  .navbar-toggler-icon {
+    border: none; /* Remove border around nav bar icon */
+  }
+  
