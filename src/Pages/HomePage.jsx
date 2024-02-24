@@ -10,6 +10,7 @@ import Review from "../Component/Review/Review";
 import Branding from "../Component/Branding/Branding";
 import SubHeading from "../Component/SubHeading/SubHeading";
 import Footer from "../Component/Footer/Footer";
+import DryFood from "../Component/dryfood/DryFood";
 
 
 const HomePage =() =>{
@@ -17,6 +18,8 @@ const HomePage =() =>{
         <>
         <NavBar/>
         <MainHeader/>
+        <DryFood/>
+
         <SliderBanner/>
         <SubHeading/>
         <Review/>
@@ -24,7 +27,6 @@ const HomePage =() =>{
          <YouTube/>
 
         <Amazon/>
-
 
         
         <Branding/>

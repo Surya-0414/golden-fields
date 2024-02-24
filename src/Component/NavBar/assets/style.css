@@ -11,7 +11,9 @@
     
 }
 .scrolled {
-    background-color:rgb(211, 143, 16); 
+    /* background-color:rgb(211, 143, 16);  */
+    background-color:#9f4103;
+
     
   }
   .text-white .nav-link {

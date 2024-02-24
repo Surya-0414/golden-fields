@@ -1,7 +1,7 @@
 import React from "react";
 import './assets/style.css';
 import { Container, Form } from "react-bootstrap";
-import bannerImage from "./assets/image/tasty_image-1.png";
+import featurenew from "./assets/image/feature-new.png";
 import{Row,Col} from 'react-bootstrap';
 import bannerFinal from './assets/image/millet_image-1.png';
 // import video1 from './assets/video/video-soja.mp4'
@@ -87,7 +87,7 @@ const Banner = () => {
         <p>Founded with a passion for health and a deep appreciation for traditional Indian ingredients, Golden Fields was born out of a desire to reconnect with our roots and promote holistic well-being. Drawing inspiration from the wisdom of Ayurveda and the rich culinary heritage of India, we embarked on a journey to create a product that would not only satisfy hunger but also nurture vitality.</p>
     </Col >
     <Col className="mt-5   banner-final-img-c" lg={6}>
-        <img className=" w-100  banner-final-img mt-5" src={bannerFinal} alt="Banner Final" />
+        <img className=" w-100  banner-final-img mt-5" src={featurenew} alt="Banner Final" />
     </Col>
     <Col className="n-pback-img" lg={3} md={6} sm={12}>
         

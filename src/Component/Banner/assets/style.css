@@ -33,11 +33,15 @@ body{
 .back-maps{
     /* background-image:linear-gradient(rgba(160, 158, 158, 0.7), rgba(0, 0, 0, 0.7)), url(./image/Golden\ Fields\ -2.jpg); */
 
-
-      /* background-image:linear-gradient(rgba(160, 158, 158, 0.7), rgba(0, 0, 0, 0.7)), url(./image/map.jpg);   */
+/* 
+      background-image:linear-gradient(rgba(160, 158, 158, 0.7), rgba(0, 0, 0, 0.7)), url(./image/map.jpg);   */
 
 
        background-image:linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url(./image/ful-black.jpg);   
+       /* background-color:#9f4103; */
+/* background-image:url(./image/pp.webp); */
+
+       
 
       background-repeat: no-repeat;
 
@@ -111,11 +115,11 @@ align-items: center;
 }
 
 .amazon-heading{
-    color:rgb(211, 143, 16);
+    color:#9f4103;
     font-size: 50px;
 }
 .banner-head-text-back-img{
-    color:rgb(211, 143, 16);
+    color:black;
 
 }
 

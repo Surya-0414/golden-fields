@@ -10,6 +10,7 @@ import './assets/style.css';
 const Branding = () => {
     return (
         <div>
+        
             <Row className="branding-row">
                 <Col lg={2} className="branding-animation">
                     <img className="img-fluid barnding-imgs branding-left" src={brandingimg1} />
@@ -27,6 +28,7 @@ const Branding = () => {
                     <img className="img-fluid barnding-imgs branding-right" src={brandingimg5} />
                 </Col>
             </Row>
+            
         </div>
     );
 };

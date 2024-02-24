@@ -39,7 +39,7 @@ function SliderBanner() {
 {/* style={{ height: "1000px" }} */}
       <Slider {...settings} ref={sliderRef}>
         <div>
-          <Row  style={{ height: "" }} className="back-map p-0 m-0 ">
+          <Row  style={{ height: "" }} className="back-map1 p-0 m-0 ">
             <Col className="text-center banner-text banner-right" lg={4}>
               <h2 className="banner-head-text-back-img">Our Story</h2>
               <p>Founded with a passion for health and a deep appreciation for traditional Indian ingredients, Golden Fields was born out of a desire to reconnect with our roots and promote holistic well-being. Drawing inspiration from the wisdom of Ayurveda and the rich culinary heritage of India, we embarked on a journey to create a product that would not only satisfy hunger but also nurture vitality.</p>
@@ -56,7 +56,7 @@ function SliderBanner() {
           </Row>
         </div>
         <div>
-          <Row className="back-map p-0 m-0 ">
+          <Row className="back-map2 p-0 m-0 ">
             <Col className="" lg={4} md={6} sm={12}>
               <h2 className="text-center banner-text banner-head-text-back-img ">Unparalleled Quality Assurance</h2>
               <p className="text-center banner-text">We take pride in the quality and purity of our products. Every batch of Golden Fields Multi-grain Superfood undergoes rigorous testing and quality control measures to ensure that it meets our stringent standards. From farm to fork, we maintain full traceability and transparency, so you can trust that what you're putting into your body is nothing but the best.</p>
@@ -73,7 +73,7 @@ function SliderBanner() {
           </Row>
         </div>
         <div>
-          <Row className="back-map p-0 m-0  ">
+          <Row className="back-map3 p-0 m-0  ">
             <Col className="" lg={4} md={6} sm={12}>
               <h2 className="text-center banner-text banner-head-text-back-img">More Than Just a Meal</h2>
               <p className="text-center banner-text">Golden Fields Multi-grain Superfood isn't just food—it's a lifestyle choice. By incorporating our product into your daily routine, you're not only fueling your body with essential nutrients but also embracing a philosophy of wellness that extends beyond the plate. It's about nourishing your body, mind, and spirit in harmony with nature.</p>

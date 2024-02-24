@@ -11,6 +11,10 @@ import SliderBanner from "./Component/SliderBanner/SliderBanner";
 import Review from "./Component/Review/Review";
 import Branding from "./Component/Branding/Branding";
 import SubHeading from "./Component/SubHeading/SubHeading";
+import DryFood from "./Component/dryfood/DryFood";
+
+
+
 
 
 
