@@ -1,0 +1,55 @@
+.pa-22{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.img-size{
+    height: 200px;
+    width: 400px;
+    border-radius: 40px;
+}
+.total-oroduct-back{
+    background-image: url(./image/pattern.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Add this CSS to your style.css file */
+
+@keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  .type-writing {
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Ensures the text is not shown outside the box */
+    /* border-right: .15em solid orange;  */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation:
+      typing 3.5s steps(90, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typewriter cursor animation */
+  @keyframes blink-caret {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      /* border-color: orange; */
+    }
+  }
+  

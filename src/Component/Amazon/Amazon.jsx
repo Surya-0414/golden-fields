@@ -6,7 +6,7 @@ import azp1 from './assets/Image/cholam.jpg';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
-git add .
+
 function Amazon() {
   const [display, setDisplay] = useState(true);
   const [width, setWidth] = useState(600);

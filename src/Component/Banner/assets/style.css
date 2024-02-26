@@ -115,11 +115,12 @@ align-items: center;
 }
 
 .amazon-heading{
-    color:#9f4103;
+    /* color:#9f4103; */
+    color: white;
     font-size: 50px;
 }
 .banner-head-text-back-img{
-    color:black;
+    color: white;
 
 }
 

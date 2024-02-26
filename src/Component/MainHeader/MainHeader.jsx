@@ -17,8 +17,11 @@ function MainHeader() {
         </video>
 
         <Carousel.Caption>
-          <h1 className='main-h1-s' >First slide label</h1>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <div  className='main-h1-s'>
+          <h1 className='main-h1-text ' >Golden  Fields</h1>
+          <p className='main-p-1'>A Blend of Goodness</p>
+
+          </div>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -28,8 +31,12 @@ function MainHeader() {
         </video>
 
         <Carousel.Caption>
-          <h5>Second slide label</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+          <div className='main-head-s-2'>
+          <h5 className='main-header-text-2'>Multi - Grain Superfood</h5>
+          <p>100% Natural & Wholesome</p>
+
+          </div>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

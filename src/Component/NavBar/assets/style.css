@@ -1,5 +1,5 @@
 .nav-image{
-    height: 50px;
+    height: 100px;
 }
 .nav-f-all{
     font-weight: bold;
@@ -12,12 +12,16 @@
 }
 .scrolled {
     /* background-color:rgb(211, 143, 16);  */
-    background-color:#9f4103;
+    /* background-color:#9f4103; */
+    background-color: rgb(230, 226, 226);
+    opacity: .9;
 
     
   }
   .text-white .nav-link {
-    color: white !important;
+    /* color: white !important; */
+    color: black !important;
+
   }
   .navbar-toggler-icon {
     border: none; /* Remove border around nav bar icon */

@@ -11,6 +11,7 @@ import Branding from "../Component/Branding/Branding";
 import SubHeading from "../Component/SubHeading/SubHeading";
 import Footer from "../Component/Footer/Footer";
 import DryFood from "../Component/dryfood/DryFood";
+import Products from "../Component/Products/Products";
 
 
 const HomePage =() =>{
@@ -19,14 +20,20 @@ const HomePage =() =>{
         <NavBar/>
         <MainHeader/>
         <DryFood/>
-
-        <SliderBanner/>
-        <SubHeading/>
         <Review/>
-         <Banner/> 
+        <Banner/> 
+        <SubHeading/>
+
+        {/* <SliderBanner/> */}
+
+        <Products/>
+
          <YouTube/>
 
-        <Amazon/>
+
+
+        {/* <Amazon/> */}
+
 
         
         <Branding/>

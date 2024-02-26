@@ -16,11 +16,39 @@ body{
 }
 
 .main-h1-s{
+   
+    padding-bottom: 300px;
+}
+
+.main-h1-text{
+    color: white;
+    /* color: #9f4103; */
+    font-size: 70px;
+    font-weight: bold;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 200px;
 }
+.main-p-1{
+    
+}
+
+.main-head-s-2{
+    padding-bottom: 300px;
+
+}
+
+.main-header-text-2{
+    color: white;
+    /* color: #9f4103; */
+    font-size: 70px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
 
         /* Media query for screens smaller than 768 pixels */

@@ -14,9 +14,6 @@ const YouTube = () => {
       ></iframe>
 
 
-      <marquee behavior="scroll" direction="right">
-        <h2>eww</h2>
-      </marquee>
     </div>
   );
 };

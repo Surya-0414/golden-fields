@@ -23,7 +23,7 @@ const Banner = () => {
 
             <Row  className="back-maps p-0 m-0">
                 <h1 className="text-center  amazon-heading">What makes Elfsight Amazon Reviews special?</h1>
-            <Col className="text-center banner-text banner-right" lg ={6}>
+            <Col className="text-center banner-text banner-right" lg ={5}>
 
                 {/* <video controls>
                             <source className="" src={video1} type="video/mp4" /> 
@@ -33,7 +33,7 @@ const Banner = () => {
           <p>Founded with a passion for health and a deep appreciation for traditional Indian ingredients, Golden Fields was born out of a desire to reconnect with our roots and promote holistic well-being. Drawing inspiration from the wisdom of Ayurveda and the rich culinary heritage of India, we embarked on a journey to create a product that would not only satisfy hunger but also nurture vitality.</p>
                 
                 </Col>
-                <Col lg ={6} md={6} sm={12}>
+                <Col lg ={5} md={6} sm={12}>
             <div >
 <img className="  img-fluid banner-img-1 mt-5  banner-center" src = {amazonimg1}/>
             </div>
@@ -43,12 +43,12 @@ const Banner = () => {
 
             <Row  className="back-maps p-0 m-0">
 
-            <Col lg ={6} md={6} sm={12}>
+            <Col lg ={5} md={6} sm={12}>
             <div >
 <img className="  img-fluid banner-img-1 mt-5" src = {amazonimg2}/>
             </div>
             </Col>
-                <Col className="" lg ={6} md={6} sm={12}>
+                <Col className="" lg ={5} md={6} sm={12}>
 
                     <h2 className=" text-center banner-text banner-head-text-back-img ">Unparalleled Quality Assurance</h2>
                     <p className=" text-center banner-text">We take pride in the quality and purity of our products. Every batch of Golden Fields Multi-grain Superfood undergoes rigorous testing and quality control measures to ensure that it meets our stringent standards. From farm to fork, we maintain full traceability and transparency, so you can trust that what you're putting into your body is nothing but the best.
@@ -80,22 +80,7 @@ const Banner = () => {
 
 
 
-            <Row className="final-banner-alin  text-center mb-4">
-    <Col className="n-p back-img" lg={3} md={6} sm={12}>
-        {/* <img className="img-fluid plant" src={plant} alt="Plant" /> */}
-        <h2 className="banner-head-text-back-imgs">Our Story</h2>
-        <p>Founded with a passion for health and a deep appreciation for traditional Indian ingredients, Golden Fields was born out of a desire to reconnect with our roots and promote holistic well-being. Drawing inspiration from the wisdom of Ayurveda and the rich culinary heritage of India, we embarked on a journey to create a product that would not only satisfy hunger but also nurture vitality.</p>
-    </Col >
-    <Col className="mt-5   banner-final-img-c" lg={6}>
-        <img className=" w-100  banner-final-img mt-5" src={featurenew} alt="Banner Final" />
-    </Col>
-    <Col className="n-pback-img" lg={3} md={6} sm={12}>
-        
-        {/* <img className="img-fluid plant" src={plant} alt="Plant" /> */}
-        <h2 className="banner-head-text-back-imgs">Our Story</h2>
-        <p>Founded with a passion for health and a deep appreciation for traditional Indian ingredients, Golden Fields was born out of a desire to reconnect with our roots and promote holistic well-being. Drawing inspiration from the wisdom of Ayurveda and the rich culinary heritage of India, we embarked on a journey to create a product that would not only satisfy hunger but also nurture vitality.</p>
-    </Col>
-</Row>
+       
 
 
         </Container>

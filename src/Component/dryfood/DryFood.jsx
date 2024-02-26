@@ -28,7 +28,7 @@ const DryFood = () => {
 
                     <p>Nsectetur cing elit.</p>
 
-                    <Button className="dry-btn-1" >Warning</Button>{''}
+                    <Button className="dry-btn-1 px-4 py-2" >Warning</Button>{''}
 
 
 
