@@ -20,7 +20,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 700px;
+    height: 600px;
 }
 .dry-p-1{
 color: #515151;
@@ -42,5 +42,12 @@ color: #515151;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+
+}
+
+.dry-icons{
+
+    font-size: 28px;
+    color: #9f4103; 
 
 }

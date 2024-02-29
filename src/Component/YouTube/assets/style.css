@@ -1,0 +1,39 @@
+
+/* .youtube-1{
+    border-radius: 50px;
+} */
+
+
+
+.ad-you-back-img{
+    background-image: url(./image/pexels-pixabay-209371.jpg);
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+.you-contact{
+    padding-top: 70px;
+    font-size: 54px;
+    color: white;
+    font-weight: bold;
+}
+.you-contact-2{
+    font-size: 54px;
+    font-weight: bold;
+    color: #9f4103; 
+
+}
+
+.i-cons-01{
+    font-size: 70px;
+    color: #9f4103; 
+
+}
+.i-cons-text-01{
+    font-size: 30px;
+    color:white; 
+    font-weight: bold;
+
+}

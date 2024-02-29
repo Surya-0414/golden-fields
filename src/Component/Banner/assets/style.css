@@ -31,14 +31,22 @@ body{
 }
 
 .back-maps{
+
+
+    /* background-image:linear-gradient(rgba(0, 0, 0, 0), rgba(68, 9, 9, 0.9)), url(./image/pattern.jpg);    */
+
+    background-image:linear-gradient(rgba(2, 1, 1, 0), rgba(133, 80, 2, 0.9)), url(./image/pattern.jpg);   
+
+
     /* background-image:linear-gradient(rgba(160, 158, 158, 0.7), rgba(0, 0, 0, 0.7)), url(./image/Golden\ Fields\ -2.jpg); */
 
 /* 
       background-image:linear-gradient(rgba(160, 158, 158, 0.7), rgba(0, 0, 0, 0.7)), url(./image/map.jpg);   */
 
+/* 
+       background-image:linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url(./image/pattern.jpg);    */
 
-       background-image:linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url(./image/ful-black.jpg);   
-       /* background-color:#9f4103; */
+       /* background-color:#0c0703; */
 /* background-image:url(./image/pp.webp); */
 
        
@@ -115,13 +123,34 @@ align-items: center;
 }
 
 .amazon-heading{
-    /* color:#9f4103; */
-    color: white;
+    color:black;
+    /* color: white; */
     font-size: 50px;
+    font-weight: bold;
+}
+
+.amazon-heading-001{
+    color:#9f4103;
+    /* color: white; */
+    font-size: 50px;
+    font-weight: bold;
 }
 .banner-head-text-back-img{
-    color: white;
+    color:#9f4103;
+    font-weight: bold;
 
+
+}
+
+.r-gif{
+    background-image: url(./image/ro\ gif.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.star-fall{
+    background-image: url(./image/1820684_f0765.gif);
 }
 
   /* Media query for screens smaller than 768 pixels */

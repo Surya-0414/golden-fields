@@ -27,6 +27,7 @@ const HomePage =() =>{
         {/* <SliderBanner/> */}
 
         <Products/>
+        <Branding/>
 
          <YouTube/>
 
@@ -36,7 +37,6 @@ const HomePage =() =>{
 
 
         
-        <Branding/>
 
         <Footer/>
 

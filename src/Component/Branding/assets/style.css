@@ -8,6 +8,7 @@
 height:240px ;
 
 
+
 }
 
 .branding-row{
@@ -18,6 +19,7 @@ height:240px ;
 
 .branding-animation img {
     transition: transform 0.3s ease;
+    border-radius: 44px;
 }
 
 .branding-animation img:hover {
