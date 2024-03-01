@@ -6,7 +6,24 @@
     background-image: url(./image/pattern.jpg);
 }
 .sub-img{
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.sub-head-h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.sub-2-head-h1{
+    font-size: 50px;
+    font-weight: bold;
+    color:#9f4103;
+
+}
+
+.sub-heat-text-col{
+    color:#9f4103;
+
 }

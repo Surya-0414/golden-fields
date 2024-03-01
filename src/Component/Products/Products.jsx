@@ -51,14 +51,14 @@ export default function App() {
   };
 
   return (
-    <Container fluid  className='total-oroduct-back' >
-    <Container  className=' mb-5'>
+    <Container fluid  className='total-oroduct-back  '  >
+    <Container fluid className=' '>
 
-      <h2 className='type-writing  mb-5'>Natural Ingredients</h2>
+      <h2 className='type-writing  mb-5'>Natural   <span className='type2-writing mx-3' >  Ingredients </span> </h2>
       <MDBTabs justify className='mb-3'>
         <MDBTabsItem>
           <MDBTabsLink onClick={() => handleJustifyClick('tab1')} active={justifyActive === 'tab1'}>
-            <h4>ereege</h4>
+            <h4>ereege  <i class="fa-solid fa-turn-down"></i></h4>
           </MDBTabsLink>
         </MDBTabsItem>
         <MDBTabsItem>
@@ -186,12 +186,12 @@ export default function App() {
         <MDBTabsPane open={justifyActive === 'tab4'}>
           {/* Content for tab 4 */}
 
-          <Row className='pa-22'>
+          <Row className='pa-22  '>
             <Col lg={3}>
               <img className='img-fluid img-size' src={r4p1} alt="Image 1" />
               
             </Col>
-            <Col lg={3}>
+            <Col lg={3} className='mb-5' >
               <div className='product-m-div'>
               <img className='img-fluid  img-size' src={r4p2} alt="Image 2" />
             

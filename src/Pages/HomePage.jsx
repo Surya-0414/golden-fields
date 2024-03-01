@@ -12,6 +12,7 @@ import SubHeading from "../Component/SubHeading/SubHeading";
 import Footer from "../Component/Footer/Footer";
 import DryFood from "../Component/dryfood/DryFood";
 import Products from "../Component/Products/Products";
+import FinalImage from "../Component/FinalImage/FinalImage";
 
 
 const HomePage =() =>{
@@ -24,10 +25,13 @@ const HomePage =() =>{
         <Banner/> 
         <SubHeading/>
 
+        <FinalImage/>
+
+
         {/* <SliderBanner/> */}
 
         <Products/>
-        <Branding/>
+        {/* <Branding/> */}
 
          <YouTube/>
 
