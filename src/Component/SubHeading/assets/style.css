@@ -6,11 +6,19 @@
     background-image: url(./image/pattern.jpg);
 }
 .sub-img{
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-img-s{
     height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 
 .sub-head-h1{
     font-size: 50px;

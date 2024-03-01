@@ -70,7 +70,7 @@ const SubHeading =() => {
 </div>
     </Col >
     <Col className="  banner-final-img-c" lg={7}>
-        <img className=" w-100  sub-img " src={subheading} alt="Banner Final" />
+        <img className=" w-100  sub-img-s " src={subheading} alt="Banner Final" />
     </Col>
     {/* <Col className="n-pback-img" lg={3} md={6} sm={12}>
         

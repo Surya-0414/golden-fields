@@ -8,12 +8,14 @@ import {
   MDBRow,
   MDBRipple
 } from 'mdb-react-ui-kit';
-import footerimg1 from './assets/Image/PRODUCT BOX.png';
-import footerimg2 from './assets/Image/PRODUCT BOX.png';
+import footerimg1 from './assets/Image/Front.png';
+import footerimg2 from './assets/Image/Side1.png';
 import footerimg3 from './assets/Image/PRODUCT BOX.png';
-import footerimg4 from './assets/Image/PRODUCT BOX.png';
-import footerimg5 from './assets/Image/PRODUCT BOX.png';
-import footerimg7 from './assets/Image/PRODUCT BOX.png';
+// import footerimg4 from './assets/Image/millet 3.png';
+import footerimg5 from './assets/Image/Side2.png';
+import footerimg7 from './assets/Image/back.png';
+
+import './assets/style.css';
 
 export default function App() {
   return (
@@ -27,7 +29,7 @@ export default function App() {
                 className='bg-image hover-overlay shadow-1-strong rounded'
               >
                 <a href='#!'>
-                  <img src={footerimg1} alt='footer img1' />
+                  <img  className='img-fluid  footer-img-size' src={footerimg1} alt='footer img1' />
                   <div
                     className='mask'
                     style={{ backgroundColor: 'rgba(251, 251, 251, 0.2)' }}
@@ -41,7 +43,7 @@ export default function App() {
                 className='bg-image hover-overlay shadow-1-strong rounded'
               >
                 <a href='#!'>
-                  <img src={footerimg2} alt='footer img2' />
+                  <img  className='img-fluid  footer-img-size' src={footerimg2} alt='footer img2' />
                   <div
                     className='mask'
                     style={{ backgroundColor: 'rgba(251, 251, 251, 0.2)' }}
@@ -55,7 +57,7 @@ export default function App() {
                 className='bg-image hover-overlay shadow-1-strong rounded'
               >
                 <a href='#!'>
-                  <img src={footerimg3} alt='footer img3' />
+                  <img  className='img-fluid  footer-img-size' src={footerimg3} alt='footer img3' />
                   <div
                     className='mask'
                     style={{ backgroundColor: 'rgba(251, 251, 251, 0.2)' }}
@@ -69,7 +71,9 @@ export default function App() {
                 className='bg-image hover-overlay shadow-1-strong rounded'
               >
                 <a href='#!'>
-                  <img src={footerimg4} alt='footer img4' />
+                  {/* <img  className='img-fluid  footer-img-size' src={footerimg4} alt='footer img4' /> */}
+
+                  <img  className='img-fluid  footer-img-size' src={footerimg1} alt='footer img1' />
                   <div
                     className='mask'
                     style={{ backgroundColor: 'rgba(251, 251, 251, 0.2)' }}
@@ -83,7 +87,7 @@ export default function App() {
                 className='bg-image hover-overlay shadow-1-strong rounded'
               >
                 <a href='#!'>
-                  <img src={footerimg5} alt='footer img5' />
+                  <img  className='img-fluid  footer-img-size' src={footerimg5} alt='footer img5' />
                   <div
                     className='mask'
                     style={{ backgroundColor: 'rgba(251, 251, 251, 0.2)' }}
@@ -97,7 +101,7 @@ export default function App() {
                 className='bg-image hover-overlay shadow-1-strong rounded'
               >
                 <a href='#!'>
-                  <img src={footerimg7} alt='footer img7' />
+                  <img  className='img-fluid  footer-img-size' src={footerimg7} alt='footer img7' />
                   <div
                     className='mask'
                     style={{ backgroundColor: 'rgba(251, 251, 251, 0.2)' }}
@@ -110,9 +114,9 @@ export default function App() {
       </MDBContainer>
 
       <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
-        © 2020 Copyright:
+        © 2024 Copyright:
         <a className='text-white' href='https://mdbootstrap.com/'>
-          MDBootstrap.com
+          goldenfields.com
         </a>
       </div>
     </MDBFooter>
