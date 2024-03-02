@@ -25,7 +25,7 @@ const HomePage =() =>{
         <Banner/> 
         <SubHeading/>
 
-        <FinalImage/>
+        {/* <FinalImage/> */}
 
 
         {/* <SliderBanner/> */}

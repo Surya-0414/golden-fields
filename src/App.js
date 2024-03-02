@@ -14,28 +14,21 @@ import SubHeading from "./Component/SubHeading/SubHeading";
 import DryFood from "./Component/dryfood/DryFood";
 import Products from "./Component/Products/Products";
 import FinalImage from "./Component/FinalImage/FinalImage";
-// index.js or App.js
 
-
-
-
-
-
-
-
+// Importing libraries and styles
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-const IndexPage = () =>{
+AOS.init();
 
-  return(
-
+const IndexPage = () => {
+  return (
     <>
-    <HomePage/>
-    
+      <HomePage/>
     </>
-
   );
 };
 
-export default IndexPage ;
+export default IndexPage;

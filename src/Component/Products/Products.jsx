@@ -42,28 +42,40 @@ export default function App() {
   return (
     <Container fluid className='total-oroduct-back'>
       <Container fluid>
+
+        
+    <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
+
+<div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
         <h2 className='type-writing mb-5'>
           Natural <span className='type2-writing mx-3'>Ingredients</span>
         </h2>
-        <MDBTabs justify className='mb-3'>
-          <MDBTabsItem>
+        </div>
+
+
+        <MDBTabs justify className='mb-5'>
+          <MDBTabsItem  className=''>
             <MDBTabsLink onClick={() => handleJustifyClick('tab1')} active={justifyActive === 'tab1'}>
-              <h4>ereege <i className="fa-solid fa-turn-down"></i></h4>
+              <h4  className='product-nav-tab-heading'>ereege </h4>
             </MDBTabsLink>
           </MDBTabsItem>
           <MDBTabsItem>
             <MDBTabsLink onClick={() => handleJustifyClick('tab2')} active={justifyActive === 'tab2'}>
-              <h4>ereege</h4>
+              <h4  className='product-nav-tab-heading'>ereege</h4>
             </MDBTabsLink>
           </MDBTabsItem>
           <MDBTabsItem>
             <MDBTabsLink onClick={() => handleJustifyClick('tab3')} active={justifyActive === 'tab3'}>
-              <h4>ereege</h4>
+              <h4  className='product-nav-tab-heading'>ereege</h4>
             </MDBTabsLink>
           </MDBTabsItem>
           <MDBTabsItem>
             <MDBTabsLink onClick={() => handleJustifyClick('tab4')} active={justifyActive === 'tab4'}>
-              <h4>ereege</h4>
+              <h4 className='product-nav-tab-heading' >ereege</h4>
             </MDBTabsLink>
           </MDBTabsItem>
         </MDBTabs>
@@ -261,6 +273,7 @@ export default function App() {
             </Row>
           </MDBTabsPane>
         </MDBTabsContent>
+        </div>
       </Container>
     </Container>
   );
