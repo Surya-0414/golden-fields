@@ -35,3 +35,106 @@
     color:#9f4103;
 
 }
+
+.high-quality{
+    font-size: 50px;
+    font-weight: bold;
+}
+.high-quality-2{
+    font-size: 50px;
+    font-weight: bold;
+    color:#9f4103;
+}
+
+/* Media query for screens smaller than 768 pixels */
+@media screen and (max-width: 767px) {
+    .sub-head-h1{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .sub-2-head-h1{
+        font-size: 20px;
+        font-weight: bold;
+        color:#9f4103;
+    
+    }
+    .sub-img{
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sub-img-s{
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .high-quality{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .high-quality-2{
+        font-size: 20px;
+        font-weight: bold;
+        color:#9f4103;
+    }
+    .nutz-gig-img{
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+    }
+}
+
+/* Media query for screens between 768 and 1024 pixels */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .sub-head-h1{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .sub-2-head-h1{
+        font-size: 20px;
+        font-weight: bold;
+        color:#9f4103;
+    
+    }
+
+    .sub-img{
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sub-img-s{
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .high-quality{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .high-quality-2{
+        font-size: 20px;
+        font-weight: bold;
+        color:#9f4103;
+    }
+
+    .nutz-gig-img{
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+    }
+}
+
+/* Media query for screens larger than 1024 pixels */
+@media screen and (min-width: 1024px) {
+
+
+}

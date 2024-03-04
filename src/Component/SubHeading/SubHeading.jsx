@@ -110,10 +110,17 @@ const SubHeading =() => {
 </Row>
         </div>
 
+
+
+
         <div   data-aos="fade-up">
+        <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
+<h2 className="high-quality  text-center mt-5 mb-5">High quality  <span  className="high-quality-2" > Nuts  </span></h2>
 
-
-<img  className="w-100  mt-4 mb-4 " src = {lenthimg} /> 
+</div>
+<img  className="w-100  mt-4 mb-4  nutz-gig-img " src = {lenthimg} /> 
 </div>
 
       

@@ -51,3 +51,56 @@ color: #515151;
     color: #9f4103; 
 
 }
+
+/* Media query for screens smaller than 768 pixels */
+@media screen and (max-width: 767px) {
+    .dry-img-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 250px;
+    }
+
+    .dry-h1{
+        font-size: 20px;
+        font-weight: bold;
+        color: #1D2228;
+        padding-top: 2px;
+    }
+    
+    .dry-h-1-s{
+        font-size: 20px;
+        font-weight: bold;
+        color: #9f4103; 
+    }
+}
+
+/* Media query for screens between 768 and 1024 pixels */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .dry-img-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+    }
+
+
+    .dry-h1{
+        font-size: 20px;
+        font-weight: bold;
+        color: #1D2228;
+        padding-top: 2px;
+    }
+    
+    .dry-h-1-s{
+        font-size: 20px;
+        font-weight: bold;
+        color: #9f4103; 
+    }
+}
+
+/* Media query for screens larger than 1024 pixels */
+@media screen and (min-width: 1024px) {
+
+
+}

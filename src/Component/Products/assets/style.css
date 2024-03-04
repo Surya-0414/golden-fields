@@ -82,3 +82,53 @@
 .product-nav-tab-heading:hover{
   color: black;
 } 
+
+
+
+/* Media query for screens smaller than 768 pixels */
+@media screen and (max-width: 767px) {
+  .type-writing {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .type2-writing{
+    font-size: 20px;
+    font-weight: bold;
+    color:#9f4103;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+}
+
+/* Media query for screens between 768 and 1024 pixels */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .type-writing {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .type2-writing{
+    font-size: 20px;
+    font-weight: bold;
+    color:#9f4103;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+}
+
+/* Media query for screens larger than 1024 pixels */
+@media screen and (min-width: 1024px) {
+
+
+}

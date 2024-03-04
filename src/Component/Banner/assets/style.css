@@ -162,6 +162,30 @@ align-items: center;
         justify-content: center;
         align-items: center;
     }
+    
+
+    .amazon-heading{
+        color:black;
+        /* color: white; */
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .amazon-heading-001{
+        color:#9f4103;
+        /* color: white; */
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .star-fall{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .final-side-img-w{
+        width: 100%;
+    }
 }
 
 /* Media query for screens between 768 and 1024 pixels */
@@ -172,6 +196,28 @@ align-items: center;
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .amazon-heading{
+        color:black;
+        /* color: white; */
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .amazon-heading-001{
+        color:#9f4103;
+        /* color: white; */
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .star-fall{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .final-side-img-w{
+        width: 100%;
     }
 }
 

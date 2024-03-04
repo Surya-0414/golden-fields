@@ -26,8 +26,8 @@ import r3p6 from './assets/image/karuppu-ulunthu-1.jpg';
 import r3p7 from './assets/image/white uhluhu.jpg';
 import r3p8 from './assets/image/poothukatalai.jpg';
 // 4 row
-import r4p1 from './assets/image/samiy.jpg';
-import r4p2 from './assets/image/samiy.jpg';
+import r4p1 from './assets/image/sukku.jpg';
+import r4p2 from './assets/image/aalakai.jpg';
 
 export default function App() {
   const [justifyActive, setJustifyActive] = useState('tab1');
@@ -85,25 +85,25 @@ export default function App() {
             <Row className='pa-22'>
               <Col lg={3}>
                 <div className='main-product-div-col'>
-                  <img className='img-fluid img-size' src={r1p1} alt="Image 1" />
+                  <img className='img-fluid img-size mt-2 mb-2' src={r1p1} alt="Image 1" />
                   <div className="overlay">ssssssss</div>
                 </div>
               </Col>
               <Col lg={3}>
                 <div className='main-product-div-col'>
-                  <img className='img-fluid img-size' src={r1p2} alt="Image 2" />
+                  <img className='img-fluid img-size mt-2 mb-2' src={r1p2} alt="Image 2" />
                   <div className="overlay">eeeeeeeeee</div>
                 </div>
               </Col>
               <Col lg={3}>
                 <div className='main-product-div-col'>
-                  <img className='img-fluid img-size' src={r1p3} alt="Image 3" />
+                  <img className='img-fluid img-size mt-2 mb-2' src={r1p3} alt="Image 3" />
                   <div className="overlay">aaaaaaaa</div>
                 </div>
               </Col>
               <Col lg={3}>
                 <div className='main-product-div-col'>
-                  <img className='img-fluid img-size' src={r1p4} alt="Image 4" />
+                  <img className='img-fluid img-size  mt-2 mb-2' src={r1p4} alt="Image 4" />
                   <div className="overlay">qqqqqqqqq</div>
                 </div>
               </Col>
@@ -112,19 +112,19 @@ export default function App() {
             <Row className='pa-22 mt-5'>
               <Col lg={3}>
                 <div className='main-product-div-col'>
-                  <img className='img-fluid img-size' src={r1p5} alt="Image 5" />
+                  <img className='img-fluid img-size mt-2 mb-2 ' src={r1p5} alt="Image 5" />
                   <div className="overlay">qqqqqqrjtjrqqq</div>
                 </div>
               </Col>
               <Col lg={3}>
                 <div className='main-product-div-col'>
-                  <img className='img-fluid img-size' src={r1p6} alt="Image 6" />
+                  <img className='img-fluid img-size  mt-2 mb-2 ' src={r1p6} alt="Image 6" />
                   <div className="overlay">qqqqqtrruqqqq</div>
                 </div>
               </Col>
               <Col lg={3}>
                 <div className='main-product-div-col'>
-                  <img className='img-fluid img-size' src={r1p7} alt="Image 7" />
+                  <img className='img-fluid img-size  mt-2 mb-2 ' src={r1p7} alt="Image 7" />
                   <div className="overlay">qqqq</div>
                 </div>
               </Col>
@@ -134,19 +134,19 @@ export default function App() {
             <Row className='pa-22'>
               <Col lg={3}>
                 <div className='main-product-div-col'>
-                  <img className='img-fluid img-size' src={r2p1} alt="Image 1" />
+                  <img className='img-fluid img-size  mt-2 mb-2' src={r2p1} alt="Image 1" />
                   <div className="overlay">ggggggsqqqqqqq</div>
                 </div>
               </Col>
               <Col lg={3}>
                 <div className='main-product-div-col'>
-                  <img className='img-fluid img-size' src={r2p2} alt="Image 2" />
+                  <img className='img-fluid img-size  mt-2 mb-2' src={r2p2} alt="Image 2" />
                   <div className="overlay">ggggggsqqqqqqq</div>
                 </div>
               </Col>
               <Col lg={3}>
                 <div className='main-product-div-col'>
-                  <img className='img-fluid img-size' src={r2p3} alt="Image 3" />
+                  <img className='img-fluid img-size  mt-2 mb-2' src={r2p3} alt="Image 3" />
                   <div className="overlay">ggggggsqqqqqqq</div>
                 </div>
               </Col>
@@ -155,19 +155,19 @@ export default function App() {
             <Row className='pa-22 mt-5'>
               <Col lg={3}>
                 <div className='main-product-div-col'>
-                  <img className='img-fluid img-size' src={r2p4} alt="Image 4" />
+                  <img className='img-fluid img-size mt-2 mb-2 ' src={r2p4} alt="Image 4" />
                   <div className="overlay">ggggggsqqqqqqq</div>
                 </div>
               </Col>
               <Col lg={3}>
                 <div className='main-product-div-col'>
-                  <img className='img-fluid img-size' src={r2p5} alt="Image 5" />
+                  <img className='img-fluid img-size mt-2 mb-2 ' src={r2p5} alt="Image 5" />
                   <div className="overlay">ggggggsqqqqqqq</div>
                 </div>
               </Col>
               <Col lg={3}>
                 <div className='main-product-div-col'>
-                  <img className='img-fluid img-size' src={r2p6} alt="Image 6" />
+                  <img className='img-fluid img-size  mt-2 mb-2 ' src={r2p6} alt="Image 6" />
                   <div className="overlay">ggggggsqqqqqqq</div>
                 </div>
               </Col>
@@ -188,7 +188,7 @@ export default function App() {
               <Col lg={3}>
               <div className='main-product-div-col'>
 
-                <img className='img-fluid img-size' src={r3p2} alt="Image 2" />
+                <img className='img-fluid img-size  mt-2 mb-2 ' src={r3p2} alt="Image 2" />
                 <div className="overlay">ggggggsqqqqqqq</div>
 
                 </div>
@@ -197,7 +197,7 @@ export default function App() {
               <Col lg={3}>
               <div className='main-product-div-col'>
 
-                <img className='img-fluid img-size' src={r3p3} alt="Image 3" />
+                <img className='img-fluid img-size  mt-2 mb-2 ' src={r3p3} alt="Image 3" />
                 <div className="overlay">ggggggsqqqqqqq</div>
 
                 </div>
@@ -206,7 +206,7 @@ export default function App() {
               <Col lg={3}>
               <div className='main-product-div-col'>
 
-                <img className='img-fluid img-size' src={r3p4} alt="Image 4" />
+                <img className='img-fluid img-size mt-2 mb-2 ' src={r3p4} alt="Image 4" />
                 <div className="overlay">ggggggsqqqqqqq</div>
 
                 </div>
@@ -218,7 +218,7 @@ export default function App() {
               <Col lg={3}>
               <div className='main-product-div-col'>
 
-                <img className='img-fluid img-size' src={r3p5} alt="Image 5" />
+                <img className='img-fluid img-size  mt-2 mb-2 ' src={r3p5} alt="Image 5" />
                 <div className="overlay">ggggggsqqqqqqq</div>
                 </div>
 
@@ -226,7 +226,7 @@ export default function App() {
               <Col lg={3}>
               <div className='main-product-div-col'>
 
-                <img className='img-fluid img-size' src={r3p6} alt="Image 6" />
+                <img className='img-fluid img-size   mt-2 mb-2 ' src={r3p6} alt="Image 6" />
                 <div className="overlay">ggggggsqqqqqqq</div>
                 </div>
 
@@ -234,7 +234,7 @@ export default function App() {
               <Col lg={3}>
               <div className='main-product-div-col'>
 
-                <img className='img-fluid img-size' src={r3p7} alt="Image 7" />
+                <img className='img-fluid img-size  mt-2 mb-2 ' src={r3p7} alt="Image 7" />
                 <div className="overlay">ggggggsqqqqqqq</div>
                 </div>
 
@@ -242,7 +242,7 @@ export default function App() {
               <Col lg={3}>
               <div className='main-product-div-col'>
 
-                <img className='img-fluid img-size' src={r3p8} alt="Image 8" />
+                <img className='img-fluid img-size mt-2 mb-2 ' src={r3p8} alt="Image 8" />
                 <div className="overlay">ggggggsqqqqqqq</div>
                 </div>
 
@@ -255,7 +255,7 @@ export default function App() {
               <Col lg={3}>
               <div className='main-product-div-col'>
 
-                <img className='img-fluid img-size' src={r4p1} alt="Image 1" />
+                <img className='img-fluid img-size  mt-2 mb-2 ' src={r4p1} alt="Image 1" />
                 <div className="overlay">ggggggsqqqqqqq</div>
 
                 </div>
@@ -264,7 +264,7 @@ export default function App() {
               <Col lg={3}>
               <div className='main-product-div-col'>
 
-                <img className='img-fluid img-size' src={r4p2} alt="Image 2" />
+                <img className='img-fluid img-size  mt-2 mb-2 ' src={r4p2} alt="Image 2" />
                 <div className="overlay">ggggggsqqqqqqq</div>
 
                 </div>

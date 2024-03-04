@@ -37,3 +37,86 @@
     font-weight: bold;
 
 }
+
+
+/* Media query for screens smaller than 768 pixels */
+@media screen and (max-width: 767px) {
+    .you-contact{
+        padding-top: 70px;
+        font-size: 20px;
+        color: white;
+        font-weight: bold;
+    }
+    .you-contact-2{
+        font-size: 20px;
+        font-weight: bold;
+        color: #9f4103; 
+    
+    }
+    .i-cons-01{
+        font-size: 20px;
+        color:white; 
+    
+    }
+    .i-cons-text-01{
+        font-size: 20px;
+        color:white; 
+        font-weight: bold;
+    
+    }
+    .ad-you-back-img{
+        background-image: url(./image/pexels-pixabay-209371.jpg);
+    
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 340px;
+    }
+    
+    
+  }
+  
+  /* Media query for screens between 768 and 1024 pixels */
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+   
+    .you-contact{
+        padding-top: 70px;
+        font-size: 20px;
+        color: white;
+        font-weight: bold;
+    }
+    .you-contact-2{
+        font-size: 20px;
+        font-weight: bold;
+        color: #9f4103; 
+    
+    }
+
+    .i-cons-01{
+        font-size: 20px;
+        color:white; 
+    
+    }
+    .i-cons-text-01{
+        font-size: 20px;
+        color:white; 
+        font-weight: bold;
+    
+    }
+    .ad-you-back-img{
+        background-image: url(./image/pexels-pixabay-209371.jpg);
+    
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 500px;
+    }
+    
+    
+  }
+  
+  /* Media query for screens larger than 1024 pixels */
+  @media screen and (min-width: 1024px) {
+  
+  
+  }

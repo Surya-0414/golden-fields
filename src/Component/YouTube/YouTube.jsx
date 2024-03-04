@@ -14,11 +14,16 @@ const YouTube = () => {
     <div className='container-fluid ad-you-back-img '>
       <div className='ad-you-back-content'>
         <div className='mt-5 mb-5'>
-          <h2 className='mt-5 mb-5 you-contact'>High Quality <span className='you-contact-2'>Healthy</span>  <br /> And Delivery Services</h2>
 
+          <h2 className='mt-5 mb-5 you-contact'>High Quality <span className='you-contact-2'>Healthy</span>  <br /> And Delivery Services</h2>
           <div>
-            <p  className="i-cons-text-01 mx-3"><HiOutlineMail className="i-cons-01" /> golden@gmail.com</p> {/* Using email icon */}
+          <div data-aos="fade-right">
+            <p  className="i-cons-text-01 mx-3"><HiOutlineMail className="i-cons-01" /> golden@gmail.com</p> 
+            </div>
+            <div data-aos="fade-left">
+
             <p  className="i-cons-text-01  mx-3"><FaWhatsapp className="i-cons-01" /> (+91) 99887 74455</p>
+            </div>
 
             
           </div>

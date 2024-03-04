@@ -33,7 +33,7 @@ const DryFood = () => {
                         <p> <CiBookmarkCheck    className="dry-icons" />  Nsectetur cing elit</p>
                         <p> <CiBookmarkCheck    className="dry-icons" /> Nsectetur cing elit.</p>
                         <p> <CiBookmarkCheck    className="dry-icons" /> Nsectetur cing elit.</p>
-                        <Button className="dry-btn-1 px-4 py-2" >Warning</Button>{''}
+                        <Button className="dry-btn-1 px-4 py-2 mb-4" >Warning</Button>{''}
                         </div>
                     </Col>
                 </Row>

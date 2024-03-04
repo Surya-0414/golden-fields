@@ -65,6 +65,16 @@ body{
                 height: 200px;
                 width: 100%;
             }
+
+            .main-h1-text{
+                color: white;
+                /* color: #9f4103; */
+                font-size: 20px;
+                font-weight: bold;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
         }
 
 
@@ -81,6 +91,15 @@ body{
             .header-box-img{
                 height: 200px;
                 width: 100%;
+            }
+            .main-h1-text{
+                color: white;
+                /* color: #9f4103; */
+                font-size: 20px;
+                font-weight: bold;
+                display: flex;
+                justify-content: center;
+                align-items: center;
             }
         }
 

@@ -13,11 +13,13 @@ import Footer from "../Component/Footer/Footer";
 import DryFood from "../Component/dryfood/DryFood";
 import Products from "../Component/Products/Products";
 import FinalImage from "../Component/FinalImage/FinalImage";
-
+// import  Nav  from "../Component/Nav/Nav";
 
 const HomePage =() =>{
     return(
         <>
+
+        {/* <Nav/> */}
         <NavBar/>
         <MainHeader/>
         <DryFood/>
@@ -32,6 +34,7 @@ const HomePage =() =>{
 
         <Products/>
         {/* <Branding/> */}
+
 
          <YouTube/>
 

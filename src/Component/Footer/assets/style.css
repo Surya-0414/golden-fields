@@ -11,3 +11,50 @@
     height: 200px;
 }
 
+.butter-fly{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    height: 20px;
+
+   
+}
+
+.butter-fly-1{
+    height: 100px;
+
+   
+}
+
+ .footer-total-bk{
+    background-image: url(./Image/new-san.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+
+
+
+
+
+/* Media query for screens smaller than 768 pixels */
+@media screen and (max-width: 767px) {
+    .butter-fly-1{
+        display: none;
+    }
+  }
+  
+  /* Media query for screens between 768 and 1024 pixels */
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+   
+    .butter-fly-1{
+        display: none;
+    }
+  }
+  
+  /* Media query for screens larger than 1024 pixels */
+  @media screen and (min-width: 1024px) {
+  
+  
+  }
