@@ -6,17 +6,19 @@
 
 
 .ad-you-back-img{
-    background-image: url(./image/pexels-pixabay-209371.jpg);
+    background-image: url(./image/trigo-clipart.png);
 
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 700px;
+    height: 1000px;
 }
 .you-contact{
     padding-top: 70px;
     font-size: 54px;
-    color: white;
+    /* color: white; */
+    color: #9f4103; 
+
     font-weight: bold;
 }
 .you-contact-2{
@@ -28,14 +30,34 @@
 
 .i-cons-01{
     font-size: 70px;
-    color:white; 
+    color:black; 
+    /* color: #9f4103;  */
+
 
 }
 .i-cons-text-01{
     font-size: 30px;
-    color:white; 
+    color:black; 
+    /* color: #9f4103;  */
+
     font-weight: bold;
 
+}
+.you-img-create{
+    height: 400px;
+    padding-right: 80px;
+    
+}
+.you-img-create-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.total-you-bk-1{
+    background-image: url(./image/pattern.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
@@ -110,6 +132,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         height: 500px;
+        width: 100%;
     }
     
     

@@ -22,6 +22,7 @@ const SubHeading =() => {
 
             <h2 className="sub-head-h1 text-center  mt-4 mb-4 ">From My <span className="sub-2-head-h1" > Blog </span></h2>
 </div>
+<div data-aos="fade-right">
 
 <Row className="  text-center mt-5 mb-5 ">
 
@@ -29,13 +30,14 @@ const SubHeading =() => {
             <div data-aos="fade-right">
 
         <img className=" w-100  sub-img img-fluid mt-5 mb-5" src={featurenew} alt="Banner Final" />
+
+       
         </div>
     </Col>
 
-    <Col className="n-p back-img" lg={5} md={6} sm={12}>
+    <Col className="n-p back-img  " lg={5} md={6} sm={12}>
     <div data-aos="fade-down">
 
-        {/* <img className="img-fluid plant" src={plant} alt="Plant" /> */}
         <h2 className="banner-head-text-back-imgs  sub-heat-text-col">Our Story</h2>
         <p  className="mb-5">Founded with a passion for health and a deep appreciation for traditional Indian ingredients, Golden Fields was born out of a desire to reconnect with our roots and promote holistic well-being. Drawing inspiration from the wisdom of Ayurveda and the rich culinary heritage of India, we embarked on a journey to create a product that would not only satisfy hunger but also nurture vitality.</p>
 
@@ -65,7 +67,15 @@ const SubHeading =() => {
         <p>Founded with a passion for health and a deep appreciation for traditional Indian ingredients, Golden Fields was born out of a desire to reconnect with our roots and promote holistic well-being. Drawing inspiration from the wisdom of Ayurveda and the rich culinary heritage of India, we embarked on a journey to create a product that would not only satisfy hunger but also nurture vitality.</p>
     </Col> */}
 </Row>
+</div>
+<div data-aos="fade-right">
+    
+<div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
 
+            <h2 className="sub-head-h1 text-center  mt-4 mb-4 ">From My <span className="sub-2-head-h1" > Blog </span></h2>
+</div>
 
            <Row className="  text-center  mt-5 mb-5 ">
     <Col className="n-p back-img" lg={5} md={6} sm={12}>
@@ -108,6 +118,8 @@ const SubHeading =() => {
         <p>Founded with a passion for health and a deep appreciation for traditional Indian ingredients, Golden Fields was born out of a desire to reconnect with our roots and promote holistic well-being. Drawing inspiration from the wisdom of Ayurveda and the rich culinary heritage of India, we embarked on a journey to create a product that would not only satisfy hunger but also nurture vitality.</p>
     </Col> */}
 </Row>
+</div>
+
         </div>
 
 

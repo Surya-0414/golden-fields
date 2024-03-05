@@ -10,6 +10,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    /* border-radius: 50%; */
+    border-radius: 44px;
+
+    
+    
 }
 
 .sub-img-s{
@@ -17,6 +22,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    /* border-radius: 50%; */
+    border-radius: 44px;
+
 }
 
 
@@ -63,6 +71,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        border-radius: 44px;
     }
 
     .sub-img-s{
@@ -70,6 +79,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        border-radius: 44px;
+
     }
 
     .high-quality{
@@ -107,6 +118,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+
     }
     .sub-img-s{
         height: 300px;

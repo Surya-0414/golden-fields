@@ -13,6 +13,8 @@ import footerimg5 from './assets/Image/Side2.png';
 import footerimg7 from './assets/Image/back.png';
 import butterfly from './assets/Image/gg.gif';
 
+
+
 import './assets/style.css';
 
 export default function App() {
@@ -128,6 +130,8 @@ export default function App() {
                   <div data-aos="fade-left">
 
                       <img className='img-fluid  footer-img-size' src={footerimg7} alt='footer img7' />
+
+                    
                       </div>
                     <div
                       className='mask'

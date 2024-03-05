@@ -7,19 +7,20 @@ import NavBar from "./Component/NavBar/NavBar";
 import Amazon from "./Component/Amazon/Amazon";
 import YouTube from "./Component/YouTube/YouTube";
 import Footer from "./Component/Footer/Footer";
-import SliderBanner from "./Component/SliderBanner/SliderBanner";
 import Review from "./Component/Review/Review";
 import Branding from "./Component/Branding/Branding";
 import SubHeading from "./Component/SubHeading/SubHeading";
 import DryFood from "./Component/dryfood/DryFood";
 import Products from "./Component/Products/Products";
 import FinalImage from "./Component/FinalImage/FinalImage";
+import DemoHeading from "./Component/DemHeading/DemoHeading";
 
 // Importing libraries and styles
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+
 
 AOS.init();
 
