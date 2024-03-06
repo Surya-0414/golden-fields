@@ -92,7 +92,7 @@ export default function App() {
               <Col lg={3}>
                 <div className='main-product-div-col'>
                   <img className='img-fluid img-size mt-2 mb-2' src={r1p2} alt="Image 2" />
-                  <div className="overlay">eeeeeeeeee</div>
+                  <div className="overlay">Finger millet (Ragi):</div>
                 </div>
               </Col>
               <Col lg={3}>
@@ -113,7 +113,7 @@ export default function App() {
               <Col lg={3}>
                 <div className='main-product-div-col'>
                   <img className='img-fluid img-size mt-2 mb-2 ' src={r1p5} alt="Image 5" />
-                  <div className="overlay">qqqqqqrjtjrqqq</div>
+                  <div className="overlay">Pearl millet</div>
                 </div>
               </Col>
               <Col lg={3}>
@@ -141,13 +141,13 @@ export default function App() {
               <Col lg={3}>
                 <div className='main-product-div-col'>
                   <img className='img-fluid img-size  mt-2 mb-2' src={r2p2} alt="Image 2" />
-                  <div className="overlay">ggggggsqqqqqqq</div>
+                  <div className="overlay">Mappillai Samba rice</div>
                 </div>
               </Col>
               <Col lg={3}>
                 <div className='main-product-div-col'>
                   <img className='img-fluid img-size  mt-2 mb-2' src={r2p3} alt="Image 3" />
-                  <div className="overlay">ggggggsqqqqqqq</div>
+                  <div className="overlay">Red rice</div>
                 </div>
               </Col>
             </Row>

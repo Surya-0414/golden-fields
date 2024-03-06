@@ -22,13 +22,14 @@ const HomePage =() =>{
         {/* <Nav/> */}
         <NavBar/>
         <MainHeader/>
+        {/* <FinalImage/> */}
+
         {/* <DemoHeading/> */}
         <DryFood/>
         <Review/>
         <Banner/> 
         <SubHeading/>
 
-        {/* <FinalImage/> */}
 
 
 

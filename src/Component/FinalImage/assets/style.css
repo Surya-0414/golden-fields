@@ -1,26 +1,9 @@
-.final-big-img{
+.mo{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 200px;
 }
-.final-back-big-img-around{
-
-    background-image: url(./image/new.gif);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-}
-.f-final-pa-img{
-
-    background-image: url(./image//pattern.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.f-text-alin{
-
-    font-size: 50px;
-    font-weight: bold;
-    
+.mo1{
+    height: 100px;
 }

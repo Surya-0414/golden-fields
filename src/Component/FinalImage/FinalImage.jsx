@@ -1,21 +1,40 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import finalbigimg from './assets/image/millet_image-1.png';
+import { motion, useMotionValue, useTransform } from "framer-motion";
 import './assets/style.css';
+import moimg from "./assets/image/millet_image-1.png"
 
-const FinalImage =() =>{
-    return(
-
-     <Container fluid className= "f-final-pa-img ">
-        <h2 className="f-text-alin text-center ">Our Brand</h2>
-<div className="final-big-img" >
-        <img  className="final-back-big-img-around"  src = {finalbigimg}  />
-
-        </div>
-
-     </Container>
-
-    );
+// Define the Icon component or import it from another file
+const Icon = () => {
+  // Implement the Icon component functionality here
+  return <div className="mo">
+    <img className="mo1" src = {moimg}  />
+  </div>;
 };
 
-export default FinalImage ;
+const FinalImage = () => {
+  const x = useMotionValue(0);
+  const background = useTransform(
+    x,
+    [-100, 0, 100],
+    ["#ff008c", "#7700ff", "rgb(230, 255, 0)"]
+  );
+
+  return (
+    <Container fluid className="">
+      <motion.div style={{ background }}>
+        <motion.div
+          drag="x"
+          dragConstraints={{ left: 0, right: 0 }}
+          style={{ x }}
+        >
+          <Icon /> {/* Use the Icon component here */}
+        </motion.div>
+      </motion.div>
+
+      
+    </Container>
+  );
+};
+
+export default FinalImage;

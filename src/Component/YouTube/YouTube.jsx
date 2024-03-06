@@ -4,6 +4,8 @@ import { HiOutlineMail } from 'react-icons/hi'; // Importing email icon
 import './assets/style.css';
 import youimgcreate from './assets/image/tasty_image-1.png';
 
+
+
 const YouTube = () => {
   // State to manage the text color
   const [textColor, setTextColor] = useState('#9f4103'); // Default color
@@ -47,6 +49,8 @@ const YouTube = () => {
               </div>
               <div className='you-img-create-1'>
                 <div data-aos="fade-up">
+                
+
                   <img className='img-fluid you-img-create' src={youimgcreate} />
 
 
